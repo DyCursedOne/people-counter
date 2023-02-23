@@ -10,6 +10,7 @@ function increment () {
 }
 
 function save () {
+
     // 2. Create a variable that contains both the count and the dash separator, i.e. "12 - "
     let savedEntry = " - " + count;   
     
@@ -23,5 +24,6 @@ function save () {
        saveEl.textContent += savedEntry;
   countEl.textContent = 0;
   count = 0;
-    console.log(count)
+    console.log(count);
+    
 }
